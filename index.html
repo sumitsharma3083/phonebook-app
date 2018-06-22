@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phone book</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="main-heading">Phone Book</h1>
+        <form action="">
+            <h3>Name:</h3>
+            <input type="text" id="name">
+           <h3>Phone:</h3>
+           <input type='number' id="number">
+           <button id="Addbtn" type="button">Add to phonebook</button>
+        </form>
+    </div>
+    <div id="show_list">
+        <button id="showListBtn">Show your contact list</button>
+    </div>
+
+
+    <div id="list">
+        <h3 id="list_count"></h3>
+<input type="text" placeholder="Search contacts..." id="search">
+      <button id="search_btn">Search</button>
+      <div id="showitem">
+        
+      </div>
+       <ul id="resultList">
+         
+       </ul>
+    </div> 
+
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
